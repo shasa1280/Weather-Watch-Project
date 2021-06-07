@@ -1,0 +1,80 @@
+h1 {
+  font-family: "Krona One", sans-serif;
+  text-align: center;
+  font-weight: 900;
+  margin: 0;
+  font-size: 50px;
+  line-height: 48px;
+  padding: 25px;
+}
+h2,
+h3 {
+  font-family: "Krona One", sans-serif;
+  font-weight: bold;
+  padding-bottom: 25px;
+}
+h2 {
+  text-align: right;
+  padding-bottom: 0;
+}
+img {
+  display: block;
+  align-content: center;
+}
+button {
+  margin: 0 auto;
+  background-color: #76a2e5;
+  border: 1px solid #686666;
+  color: #000000;
+  padding: 2px 4px;
+  text-decoration: none;
+  transition: all 200ms ease;
+}
+button:hover {
+  color: #efefef;
+  background-color: #0a68a7;
+}
+
+.day-of-week,
+.todays-weather {
+  text-align: right;
+  font-weight: bold;
+  font-size: 20px;
+}
+.day {
+  text-align: center;
+  padding-bottom: 15px;
+  text-decoration: underline;
+}
+.temperature {
+  display: block;
+  text-align: center;
+}
+.weather-picture {
+  width: 80%;
+  margin: 0;
+  padding: 0;
+}
+
+.advice {
+  font-style: italic;
+  font-size: 20px;
+}
+
+.temperature-today {
+  font-size: 80px;
+  line-height: 1;
+}
+
+.unit-temperature {
+  vertical-align: top;
+  font-size: 20px;
+}
+.todays-weather-pic {
+  display: block;
+}
+#degree {
+  font-size: 30px;
+  text-align: left;
+  vertical-align: top;
+}
